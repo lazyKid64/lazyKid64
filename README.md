@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **web2, web3 and AI development**
 
-- 🌱 I’m currently learning **JavaScript, AI-ML and web3 applications**
+- 🌱 I’m currently learning **JavaScript, AI and web3 applications**
 
 - 👯 I’m looking to collaborate on **web3 projects and AI builds**
 
