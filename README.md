@@ -6,7 +6,7 @@
 
 
 ## 📌 About Me
-- 🔭 Hi, I'm Ishant — a student exploring the bridge between Web2, Web3, and AI engineering, building projects that connect today's internet with tomorrow's intelligent systems.
+- 🔭 Hi, I'm Ishant — a student exploring the bridge between Web2, Web3, and AI engineering, building projects that connect today's internet with tomorrow's         intelligent systems.
 - 👯 I’m looking to collaborate on web3 projects and AI builds
 - 🤝 I’m looking for help with building scalable AI models and decentralized systems
 - 💬 Ask me about to never give up
