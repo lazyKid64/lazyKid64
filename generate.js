@@ -47,10 +47,11 @@ const ROWS = [
   // stats rows are appended automatically
 ];
 
-const FALLBACK = { repos: 0, stars: 0, followers: 0, following: 0, commits: 0 };
+// used if the API is unreachable / rate-limited (last known values, 2026-11-12)
+const FALLBACK = { repos: 34, stars: 5, followers: 1, following: 2, commits: 177 };
 
 const COL = 54; // characters per info line
-const LH = 18, FS_INFO = 14, FS_ART = 10, ART_LH = 12, ART_CW = 5.5, INFO_CW = 7.7;
+const LH = 18, FS_INFO = 14, FS_ART = 10, ART_LH = 12, ART_CW = 6.0, INFO_CW = 8.4; // CW = 0.6em, typical monospace
 
 const THEMES = {
   dark:  { bg: "#161b22", fg: "#c9d1d9", key: "#ffa657", value: "#a5d6ff", cc: "#616e7f", add: "#3fb950", dele: "#f85149" },
@@ -171,13 +172,22 @@ function infoLines(stats) {
   return lines;
 }
 
+const plainLen = (svg) => [...svg.replace(/<[^>]+>/g, "").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&")].length;
+
+// Every line is its own <text> with textLength, so its width is fixed no matter which
+// monospace font the viewer's browser falls back to (Consolas only exists on Windows).
+function textLine(x, y, content, len, cw, fs) {
+  if (len === 0) return "";
+  return `<text x="${x}" y="${y}" font-size="${fs}px" textLength="${(len * cw).toFixed(1)}" lengthAdjust="spacingAndGlyphs">${content}</text>`;
+}
+
 function build(theme, lines, art, dims) {
   const c = THEMES[theme];
   const { width, height, xInfo } = dims;
-  const artSvg = art.map((l, i) => `<tspan x="15" y="${28 + i * ART_LH}">${esc(l)}</tspan>`).join("\n");
-  const infoSvg = lines.map((l, i) => `<tspan x="${xInfo}" y="${25 + i * LH}">${l}</tspan>`).join("\n");
+  const artSvg = art.map((l, i) => textLine(15, 28 + i * ART_LH, esc(l), [...l].length, ART_CW, FS_ART)).filter(Boolean).join("\n");
+  const infoSvg = lines.map((l, i) => textLine(xInfo, 25 + i * LH, l, plainLen(l), INFO_CW, FS_INFO)).filter(Boolean).join("\n");
   return `<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="${width}px" height="${height}px" font-size="${FS_INFO}px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,Menlo,'DejaVu Sans Mono','Liberation Mono',monospace" width="${width}px" height="${height}px" font-size="${FS_INFO}px">
 <style>
 @font-face {
   src: local('Consolas'), local('Consolas Bold');
@@ -192,14 +202,15 @@ function build(theme, lines, art, dims) {
 .delColor {fill: ${c.dele};}
 .cc {fill: ${c.cc};}
 text, tspan {white-space: pre;}
+text {fill: ${c.fg};}
 </style>
 <rect width="${width}px" height="${height}px" fill="${c.bg}" rx="15"/>
-<text x="15" y="28" fill="${c.fg}" font-size="${FS_ART}px">
+<g>
 ${artSvg}
-</text>
-<text x="${xInfo}" y="25" fill="${c.fg}" font-size="${FS_INFO}px">
+</g>
+<g>
 ${infoSvg}
-</text>
+</g>
 </svg>
 `;
 }
