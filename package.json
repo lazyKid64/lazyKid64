@@ -1,0 +1,16 @@
+{
+  "name": "lazykid64-final",
+  "version": "1.0.0",
+  "description": "<a href=\"https://github.com/lazyKid64\">   <picture>     <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/lazyKid64/lazyKid64/main/dark_mode.svg?v=1\">     <img alt=\"lazyKid64\" src=\"https://raw.githubusercontent.com/lazyKid64/lazyKid64/main/light_mode.svg?v=1\">   </picture> </a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jimp": "^0.22.12"
+  }
+}

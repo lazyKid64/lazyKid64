@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="852px" height="485px" font-size="14px">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+  -webkit-size-adjust: 109%;
+  size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.cc {fill: #616e7f;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="852px" height="485px" fill="#161b22" rx="15"/>
+<text x="15" y="28" fill="#c9d1d9" font-size="10px">
+<tspan x="15" y="28"></tspan>
+<tspan x="15" y="40">                                :::    ..:.</tspan>
+<tspan x="15" y="52">              .                    .::.   .::</tspan>
+<tspan x="15" y="64">     .                           .   :---:: :--:.   :  .</tspan>
+<tspan x="15" y="76">     ::  ..  ..     ..::---------===: -====:::-=-   :::</tspan>
+<tspan x="15" y="88">.    .                 ..:-====---:---::-::--.:-:.  :-:</tspan>
+<tspan x="15" y="100"> :   :.            .:-----::               :::::    .:</tspan>
+<tspan x="15" y="112">              .:-====-::-----::::::.         . .      :      ::</tspan>
+<tspan x="15" y="124"> .         .::-===-----==++-:                      .::::::::</tspan>
+<tspan x="15" y="136">           .::====-=====-::::::::::          .::::::----:.       :</tspan>
+<tspan x="15" y="148">          .:---=+++===-:=++=====::.::.     .::::-====----::</tspan>
+<tspan x="15" y="160">   .     :...:=====+-:-=++==+=- :==:         :-++=+==-:::.    .</tspan>
+<tspan x="15" y="172">            ::.:--:  :--::--::::-=+++***#*+-:. :----::::</tspan>
+<tspan x="15" y="184">               ::.  :::  :::=-:=*#%%@@@@@@@@%+:: :.:: ..</tspan>
+<tspan x="15" y="196"> .             :    :    -*#--+%%@@@@@@@@@@@@@===:</tspan>
+<tspan x="15" y="208">                    :=:=+%@#-#%@@@@@@@@%##**%@*#%-.</tspan>
+<tspan x="15" y="220">    :          :=. -++=#@@@*#@@@@%*+--:.::---=+%@%-:        .</tspan>
+<tspan x="15" y="232">               =*:-*#+#@@@@@@@@@+:--=+**#**+++===++-        :</tspan>
+<tspan x="15" y="244">    . :.  .: =--:-:---:-+@@@@@@@*++==--::::==*+:.---:  -+##*-.  -</tspan>
+<tspan x="15" y="256">-      ::.  .+-=+++*+=====*+=--==#%%=+=::+-:+-+=:#%#::+@#++*@+</tspan>
+<tspan x="15" y="268">:        .   :=+*=--. --=+::=+=:+@@%@@#=--=+%%@*=@@@::%+*%%*%@-   -</tspan>
+<tspan x="15" y="280">  --          ++:=%%::-=-%==@@@%-+@@@@@@%#%@@@@=#@@%:+%=+*%%%@=</tspan>
+<tspan x="15" y="292">          :=:::###@@%+=+#@=+@@@@@+=#@@@@@@@@%*=*@@@#+@@***%@@*:   -</tspan>
+<tspan x="15" y="304">          :#=:.#@@@@@@@@@+=%@@@@@@@#**++++**#@@@@@@*+@*##@@@+:   -+</tspan>
+<tspan x="15" y="316">  ::       =#*=-*####*+++#@@@@@@@@@@@@@@@@@@@@@@@@*=*@@@@@*:  :</tspan>
+<tspan x="15" y="328">           :=#*=+###%%@@@@%%%@@%#%@%%%%%##%@@@@@%*--=***=:</tspan>
+<tspan x="15" y="340">              =%=#@@@@@@@@#*++##+++****###=#@@%#+=::           -=-:</tspan>
+<tspan x="15" y="352"> :   :--.        :*%@@@+==+*##%@%%%%%%@@@@#-*++--::.</tspan>
+<tspan x="15" y="364">                  :-*%@*#@@@%@@@@@@@@@@@@@*----:::*:</tspan>
+<tspan x="15" y="376">                    .-++=#@@@@%=-=#@@@@@@+--::::=*#=</tspan>
+<tspan x="15" y="388">:                     :::-*%@@@%+*#%##*+=:::.:=**#%*</tspan>
+<tspan x="15" y="400">@+=    ::                 ::-==-------::  .-=**#@@@*          ::</tspan>
+<tspan x="15" y="412">=.                         :::::::::::. :=+***%@@@@#:          ::.</tspan>
+<tspan x="15" y="424">        .::                *+-:. ...::-=+***#%@@@@@@=         ::..</tspan>
+<tspan x="15" y="436">       -:                  :*+++++++*****##%@@@@@@@@*-      :::.</tspan>
+<tspan x="15" y="448">      ::                    +********####%@@@@@@@@@@%*-:   ::.</tspan>
+<tspan x="15" y="460">     :::          .         =%#*#######%@@@@@@@@@@@@%#+-.::..  ..:</tspan>
+<tspan x="15" y="472">    ::.-:        .          :#%#%%%%@@@@@@@@@@@@@@@@+- :::.::-:</tspan>
+</text>
+<text x="412" y="25" fill="#c9d1d9" font-size="14px">
+<tspan x="412" y="25"><tspan class="key">ishant</tspan><tspan class="cc">@</tspan><tspan class="key">github</tspan><tspan class="cc"> ――――――――――――――――――――――――――――――――――――――――</tspan></tspan>
+<tspan x="412" y="43"><tspan class="cc">. </tspan><tspan class="key">Name:</tspan><tspan class="cc">................................. </tspan><tspan class="value">Ishant Rajput</tspan></tspan>
+<tspan x="412" y="61"><tspan class="cc">. </tspan><tspan class="key">Focus:</tspan><tspan class="cc">.................................... </tspan><tspan class="value">AI + Web3</tspan></tspan>
+<tspan x="412" y="79"><tspan class="cc">. </tspan><tspan class="key">Editor:</tspan><tspan class="cc">.......................... </tspan><tspan class="value">Visual Studio Code</tspan></tspan>
+<tspan x="412" y="97"><tspan class="cc">. </tspan><tspan class="key">Motto:</tspan><tspan class="cc">......................... </tspan><tspan class="value">Not over until I win</tspan></tspan>
+<tspan x="412" y="115"><tspan class="cc">. </tspan></tspan>
+<tspan x="412" y="133"><tspan class="cc">. </tspan><tspan class="key">Languages.Real:</tspan><tspan class="cc">...................... </tspan><tspan class="value">English, Hindi</tspan></tspan>
+<tspan x="412" y="151"><tspan class="cc">. </tspan><tspan class="key">Languages.Web:</tspan><tspan class="cc">........................ </tspan><tspan class="value">JS, HTML, CSS</tspan></tspan>
+<tspan x="412" y="169"><tspan class="cc">. </tspan><tspan class="key">Languages.Systems:</tspan><tspan class="cc">.......................... </tspan><tspan class="value">C++, Go</tspan></tspan>
+<tspan x="412" y="187"><tspan class="cc">. </tspan><tspan class="key">Languages.Blockchain:</tspan><tspan class="cc">...................... </tspan><tspan class="value">Solidity</tspan></tspan>
+<tspan x="412" y="205"><tspan class="cc">. </tspan><tspan class="key">Languages.Other:</tspan><tspan class="cc">............................. </tspan><tspan class="value">Python</tspan></tspan>
+<tspan x="412" y="223"><tspan class="cc">. </tspan></tspan>
+<tspan x="412" y="241"><tspan class="cc">. </tspan><tspan class="key">Frontend:</tspan><tspan class="cc">..................................... </tspan><tspan class="value">React</tspan></tspan>
+<tspan x="412" y="259"><tspan class="cc">. </tspan><tspan class="key">Backend:</tspan><tspan class="cc">........................... </tspan><tspan class="value">Node.js, Express</tspan></tspan>
+<tspan x="412" y="277"><tspan class="cc">. </tspan><tspan class="key">Database:</tspan><tspan class="cc">................................... </tspan><tspan class="value">MongoDB</tspan></tspan>
+<tspan x="412" y="295"><tspan class="cc">. </tspan><tspan class="key">Tools:</tspan><tspan class="cc">................................. </tspan><tspan class="value">Git, Postman</tspan></tspan>
+<tspan x="412" y="313"><tspan class="cc">. </tspan></tspan>
+<tspan x="412" y="331"><tspan class="cc">- Contact ――――――――――――――――――――――――――――――――――――――――――――</tspan></tspan>
+<tspan x="412" y="349"><tspan class="cc">. </tspan><tspan class="key">Email:</tspan><tspan class="cc">....................... </tspan><tspan class="value">ishant_r@me.iitr.ac.in</tspan></tspan>
+<tspan x="412" y="367"><tspan class="cc">. </tspan><tspan class="key">LinkedIn:</tspan><tspan class="cc">............................. </tspan><tspan class="value">ishant-rajput</tspan></tspan>
+<tspan x="412" y="385"><tspan class="cc">. </tspan><tspan class="key">GitHub:</tspan><tspan class="cc">................................... </tspan><tspan class="value">lazyKid64</tspan></tspan>
+<tspan x="412" y="403"><tspan class="cc">. </tspan></tspan>
+<tspan x="412" y="421"><tspan class="cc">- GitHub Stats ―――――――――――――――――――――――――――――――――――――――</tspan></tspan>
+<tspan x="412" y="439"><tspan class="cc">. </tspan><tspan class="key">Repos:</tspan><tspan class="cc">............. </tspan><tspan class="value">34</tspan><tspan class="cc"> | </tspan><tspan class="key">Stars:</tspan><tspan class="cc">....... </tspan><tspan class="value">5</tspan></tspan>
+<tspan x="412" y="457"><tspan class="cc">. </tspan><tspan class="key">Commits:</tspan><tspan class="cc">.......... </tspan><tspan class="value">177</tspan><tspan class="cc"> | </tspan><tspan class="key">Followers:</tspan><tspan class="cc">... </tspan><tspan class="value">1</tspan></tspan>
+</text>
+</svg>
