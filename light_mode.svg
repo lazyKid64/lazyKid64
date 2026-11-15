@@ -70,7 +70,7 @@ text {fill: #24292f;}
 <text x="409" y="205" font-size="14px" textLength="453.6" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan><tspan class="key">Languages.Other:</tspan><tspan class="cc">............................. </tspan><tspan class="value">Python</tspan></text>
 <text x="409" y="223" font-size="14px" textLength="16.8" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan></text>
 <text x="409" y="241" font-size="14px" textLength="453.6" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan><tspan class="key">Frontend:</tspan><tspan class="cc">..................................... </tspan><tspan class="value">React</tspan></text>
-<text x="409" y="259" font-size="14px" textLength="453.6" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan><tspan class="key">Backend:</tspan><tspan class="cc">........................... </tspan><tspan class="value">Node.js, Express</tspan></text>
+<text x="409" y="259" font-size="14px" textLength="453.6" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan><tspan class="key">Backend:</tspan><tspan class="cc">........ </tspan><tspan class="value">Node.js, Express, FastAPI, Pydantic</tspan></text>
 <text x="409" y="277" font-size="14px" textLength="453.6" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan><tspan class="key">Database:</tspan><tspan class="cc">................................... </tspan><tspan class="value">MongoDB</tspan></text>
 <text x="409" y="295" font-size="14px" textLength="453.6" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan><tspan class="key">Tools:</tspan><tspan class="cc">................................. </tspan><tspan class="value">Git, Postman</tspan></text>
 <text x="409" y="313" font-size="14px" textLength="16.8" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan></text>
@@ -81,6 +81,6 @@ text {fill: #24292f;}
 <text x="409" y="403" font-size="14px" textLength="16.8" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan></text>
 <text x="409" y="421" font-size="14px" textLength="453.6" lengthAdjust="spacingAndGlyphs"><tspan class="cc">- GitHub Stats ―――――――――――――――――――――――――――――――――――――――</tspan></text>
 <text x="409" y="439" font-size="14px" textLength="352.8" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan><tspan class="key">Repos:</tspan><tspan class="cc">............. </tspan><tspan class="value">34</tspan><tspan class="cc"> | </tspan><tspan class="key">Stars:</tspan><tspan class="cc">....... </tspan><tspan class="value">5</tspan></text>
-<text x="409" y="457" font-size="14px" textLength="352.8" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan><tspan class="key">Commits:</tspan><tspan class="cc">.......... </tspan><tspan class="value">177</tspan><tspan class="cc"> | </tspan><tspan class="key">Followers:</tspan><tspan class="cc">... </tspan><tspan class="value">1</tspan></text>
+<text x="409" y="457" font-size="14px" textLength="352.8" lengthAdjust="spacingAndGlyphs"><tspan class="cc">. </tspan><tspan class="key">Commits:</tspan><tspan class="cc">.......... </tspan><tspan class="value">180</tspan><tspan class="cc"> | </tspan><tspan class="key">Followers:</tspan><tspan class="cc">... </tspan><tspan class="value">1</tspan></text>
 </g>
 </svg>

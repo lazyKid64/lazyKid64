@@ -34,7 +34,7 @@ const ROWS = [
   ["Languages.Other", "Python"],
   null,
   ["Frontend", "React"],
-  ["Backend", "Node.js, Express"],
+  ["Backend", "Node.js, Express, FastAPI, Pydantic"],
   ["Database", "MongoDB"],
   ["Tools", "Git, Postman"],
   null,
